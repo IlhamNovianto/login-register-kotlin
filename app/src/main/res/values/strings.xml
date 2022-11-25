@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LoginActivity</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="copyright_ilhamnovian">copyright @IlhamNovian</string>
+    <string name="register">REGISTER</string>
+    <string name="login">LOGIN</string>
+    <string name="belum_punya_akun_daftar_disini">Belum Punya Akun? Daftar disini</string>
+    <string name="image_logo">image_logo</string>
+    <string name="lupa_password">Lupa Password ?</string>
+</resources>
