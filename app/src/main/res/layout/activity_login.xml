@@ -111,7 +111,6 @@
         android:layout_marginEnd="45dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/bg_button"
-        android:shadowColor="@color/black"
         android:text="@string/login"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/container_form"

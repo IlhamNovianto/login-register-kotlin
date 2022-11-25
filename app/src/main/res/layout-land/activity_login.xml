@@ -86,53 +86,53 @@
 
 
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginEnd="120dp"
         android:text="@string/lupa_password"
         android:textColor="@color/purple_500"
         app:layout_constraintEnd_toEndOf="@+id/container_form"
-        app:layout_constraintHorizontal_bias="0.544"
-        app:layout_constraintStart_toStartOf="@+id/layout_edit_password"
         app:layout_constraintTop_toBottomOf="@+id/layout_edit_password" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_login"
-        android:layout_width="100dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="84dp"
         android:background="@drawable/bg_button"
-        android:shadowColor="@color/black"
         android:text="@string/login"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/container_form"
         app:layout_constraintEnd_toEndOf="@+id/container_form"
-        app:layout_constraintHorizontal_bias="0.23"
         app:layout_constraintStart_toStartOf="@+id/container_form"
         app:layout_constraintTop_toBottomOf="@+id/layout_edit_password" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_register"
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="144dp"
         android:background="@drawable/bg_register"
         android:hint="@string/register"
         android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/container_form"
-        app:layout_constraintHorizontal_bias="0.152"
         app:layout_constraintStart_toStartOf="@+id/container_form"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/container_form" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:hint="@string/belum_punya_akun_daftar_disini"
         android:textColorHint="@color/black"
-        app:layout_constraintEnd_toEndOf="@+id/button_register"
-        app:layout_constraintStart_toStartOf="@+id/button_register"
+        app:layout_constraintBottom_toTopOf="@+id/button_register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image_logo"
         app:layout_constraintTop_toBottomOf="@+id/container_form" />
 
     <androidx.appcompat.widget.AppCompatTextView
